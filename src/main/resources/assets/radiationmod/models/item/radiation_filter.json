@@ -1,0 +1,82 @@
+{
+	"credit": "Сделано в ББ и мною",
+	"textures": {
+		"1": "radiationmod:item/radiation_filter",
+		"particle": "radiationmod:item/radiation_filter"
+	},
+	"elements": [
+		{
+			"from": [4.8, 0, 4.8],
+			"to": [11.2, 3.2, 11.2],
+			"rotation": {"angle": -45, "axis": "y", "origin": [8, 3.5, 8]},
+			"faces": {
+				"north": {"uv": [6, 0, 12, 3], "texture": "#1"},
+				"east": {"uv": [6, 3, 12, 6], "texture": "#1"},
+				"south": {"uv": [6, 6, 12, 9], "texture": "#1"},
+				"west": {"uv": [6, 9, 12, 12], "texture": "#1"},
+				"up": {"uv": [6, 6, 0, 0], "texture": "#1"},
+				"down": {"uv": [6, 6, 0, 12], "texture": "#1"}
+			}
+		},
+		{
+			"from": [6.4, 3.2, 6.4],
+			"to": [9.6, 4.8, 9.6],
+			"rotation": {"angle": -45, "axis": "y", "origin": [8, 3.5, 8]},
+			"faces": {
+				"north": {"uv": [3, 12, 6, 14], "texture": "#1"},
+				"east": {"uv": [12, 3, 15, 5], "texture": "#1"},
+				"south": {"uv": [12, 5, 15, 7], "texture": "#1"},
+				"west": {"uv": [6, 12, 9, 14], "texture": "#1"},
+				"up": {"uv": [3, 15, 0, 12], "texture": "#1"},
+				"down": {"uv": [15, 0, 12, 3], "texture": "#0"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"translation": [0, 2.75, -0.25],
+			"scale": [0.5, 0.5, 0.5]
+		},
+		"thirdperson_lefthand": {
+			"translation": [0, 3.75, -0.25],
+			"scale": [0.5, 0.5, 0.5]
+		},
+		"firstperson_righthand": {
+			"rotation": [-13, 38, 23],
+			"translation": [0, 6.25, 0.75],
+			"scale": [0.85, 0.85, 0.85]
+		},
+		"firstperson_lefthand": {
+			"rotation": [-13, 38, 23],
+			"translation": [0, 6.25, 0.75],
+			"scale": [0.85, 0.85, 0.85]
+		},
+		"ground": {
+			"translation": [0, 2.75, 0],
+			"scale": [0.73, 0.73, 0.73]
+		},
+		"gui": {
+			"rotation": [23, -4, 2],
+			"translation": [-0.25, 7, 0],
+			"scale": [1.36, 1.36, 1.36]
+		},
+		"head": {
+			"rotation": [0, 180, 0],
+			"translation": [0, 25.75, -0.5],
+			"scale": [4, 4, 4]
+		},
+		"fixed": {
+			"rotation": [-90, 180, 0],
+			"translation": [0, -0.25, -8.5],
+			"scale": [1.18, 1.18, 1.18]
+		}
+	},
+	"groups": [
+		{
+			"name": "group",
+			"origin": [8, 8, 8],
+			"color": 0,
+			"children": [0, 1]
+		}
+	]
+}

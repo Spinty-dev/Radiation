@@ -1,0 +1,6 @@
+{
+  "variants": {
+    "triggered=false": { "model": "radiationmod:block/bear_trap" },
+    "triggered=true": { "model": "radiationmod:block/bear_trap_open" }
+  }
+} 

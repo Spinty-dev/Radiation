@@ -1,0 +1,9 @@
+Текстуры для балаклавы:
+
+1. Текстура предмета: 
+   Путь: src/main/resources/assets/radiationmod/textures/item/balaclava.png
+   Размер: 16x16 или 32x32 пикселей
+
+2. Текстура модели:
+   Путь: src/main/resources/assets/radiationmod/textures/models/balaclava_layer_1.png
+   Размер: 64x32 пикселей (стандартный размер для текстур головы) 
